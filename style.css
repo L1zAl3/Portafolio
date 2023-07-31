@@ -29,6 +29,9 @@
   background-image: url(https://img.freepik.com/vector-premium/patron-transparente-vector-patrones-fisuras-lineas-geometricas-simetricas-repeticion-mosaicos-geometricos_113590-24.jpg);
 }
 
+.hero-inferior{
+  background-image: url(https://img.freepik.com/vector-premium/patron-transparente-vector-patrones-fisuras-lineas-geometricas-simetricas-repeticion-mosaicos-geometricos_113590-24.jpg);
+}
 /* Estilos generales */
 
 section {
@@ -47,9 +50,9 @@ h1 {
 }
 
 .seccion-oscura {
-  background-image: url(https://img.freepik.com/fotos-premium/resumen-sol-fondo-turing-patron-diversion-feliz-verano-venta-fondo-comunidad-africana_557824-344.jpg?w=2000);
+  background-color: #E5DBCF;
   font-family: 'Monoton', cursive;
-  color: #D1FFC6;
+  color: #74433C;
   /*background-image: url(https://media.istockphoto.com/id/1428264803/es/vector/fondo-blanco-dorado-abstracto-textura-geom%C3%A9trica.jpg?s=612x612&w=0&k=20&c=pQS-xYwDYMBr_I-LRPiKUvQHdgfJPInus8Bw8O7eNxY=);
   */
   /*
@@ -62,7 +65,37 @@ h1 {
   color: black;
   background-image: url(https://img.freepik.com/vector-premium/patron-transparente-vector-patrones-fisuras-lineas-geometricas-simetricas-repeticion-mosaicos-geometricos_113590-24.jpg);
 }
+/*carousel*/
+.carousel{
+  width: 60%;
+}
 
+.carrousel .carousel-item:not(.active){
+  color: #0a0a23;
+  background-color: #0a0a23;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner .card-img-overlay{
+  text-align: center;
+  color: #0a0a23;
+}
+/*PNG DE LAS TARJETAS*/
+.card-img-overlay .png-estudiante{
+  height: 30%;
+  width: 20%;
+}
+.card-img-overlay .png-soporte{
+  height: 30%;
+  width: 20%;
+}
+.card-img-overlay .png-web{
+  height: 50%;
+  width: 40%;
+}
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
@@ -144,33 +177,14 @@ h1 {
   padding: 40px 40px 60px 40px;
 }
 
-.experiencia .columna {
-  padding: 20px;
-  border: 2px solid #8080804d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  transition: all 0.2s ease-in;
-}
-
-.experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
-}
-
-.experiencia i {
-  font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
-  padding: 8px 19px;
-  border-radius: 50%;
-}
-
 .experiencia-titulo {
-  font-size: 25px;
+  color: #E5DBCF;
+  text-align: center;
+  font-size: 50px;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 0;
+  background-color: #3F220F;
+  font-family: 'Monoton', cursive;
 }
 
 .badges-contenedor {
@@ -186,9 +200,14 @@ h1 {
 /* Proyectos */
 
 .proyectos-recientes {
-  padding: 40px;
+  padding: 10px;
 }
 
+.proyectos-recientes .seccion-titulo{
+  color: #615151;
+  font-family: 'Monoton', cursive;
+
+}
 .proyectos-recientes img {
   height: 100%;
   width: 100%;
@@ -196,6 +215,9 @@ h1 {
   border-radius: 10px;
   display: block;
   transition: all 0.2s ease;
+  position: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .proyectos-contenedor {
@@ -223,6 +245,9 @@ h1 {
   position: relative;
 }
 
+.proyecto img{
+  border-radius: 20px;
+}
 .proyecto:hover img {
   opacity: 0.2;
 }
@@ -244,18 +269,18 @@ h1 {
 
 /* Testimonios */
 
+.seccion-titulo{
+  font-family: 'Monoton', cursive;
+}
 .testimonios {
   padding: 40px 40px 80px 40px;
 }
-
 .testimonios .carousel {
-  max-width: 800px;
+  max-width: 90%;
 }
-
 .carousel-item {
-  height: 500px;
+  height: 10%;
 }
-
 .carousel-item .container {
   width: 100%;
   height: 100%;
@@ -264,16 +289,13 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-
 .testimonio-imagen {
-  height: 150px;
-  width: 150px;
-  margin: 10px 10px 20px 10px;
+  height: 20px;
+  margin: 1px 1px 2px 1px;
 }
-
 .testimonio-texto {
   max-width: 70%;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   font-family: 'Share Tech Mono', monospace;
 }
@@ -298,6 +320,9 @@ h1 {
 
 /* Contacto */
 
+.contacto{
+  background-color: #3F220F;
+}
 .contacto .container {
   max-width: 1100px;
   min-height: 200px;
@@ -306,10 +331,12 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #E5DBCF ;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white;
+  box-shadow: 0px 1px 4px 1px #74433C;
 }
+
+
 
 .contacto .row {
   width: 100%;
@@ -318,15 +345,15 @@ h1 {
 }
 
 .contacto .descripcion {
-  color: white;
+  color: #584e4e;
   font-size: 1.2rem;
 }
 
 .contacto button {
-  color: white;
+  color: #584e4e;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid #584e4e;
   padding: 1.25em 2em;
   margin: 10px;
   border-radius: 100px;
@@ -334,37 +361,39 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
-  color: black;
+  background-color: #3F220F;
+  color: #E5DBCF;
 }
 
 .contacto button i {
-  color: white;
+  color: #584e4e;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
 
 .contacto button:hover i {
-  color: black;
+  color: #E5DBCF;
 }
 
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  min-height: 100px;
+  background-color: #3F220F;
 }
 
 .footer-logo {
   height: 80px;
   width: 80px;
-  margin: 10px;
+  margin: 0;
 }
 
 .footer-texto {
   font-size: 1.5rem;
-  padding: 20px;
-  margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Monoton', cursive;
+  color: #E5DBCF;
 }
 
 .iconos-redes-sociales a {
