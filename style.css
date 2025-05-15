@@ -4,7 +4,10 @@
   padding: 2rem;
   background-color:  #3F220F;
 }
-
+.nav-linkMi {
+  font-family: 'Monoton', cursive;
+  color: #F7C59F;
+}
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
@@ -32,6 +35,20 @@
 .hero-inferior{
   background-image: url(https://img.freepik.com/vector-premium/patron-transparente-vector-patrones-fisuras-lineas-geometricas-simetricas-repeticion-mosaicos-geometricos_113590-24.jpg);
 }
+
+
+.fotoperfil{
+  width: 25%;
+  aspect-ratio: 1 / 1;        /* Mantiene relación 1:1 */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nombre{
+  font-size: 2.5rem;
+  font-family: "Anton";
+}
+
 /* Estilos generales */
 
 section {
@@ -43,7 +60,7 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: "Anton";
 }
 .seccion-oscura h2{
   font-family: 'Monoton', cursive;
@@ -51,14 +68,8 @@ h1 {
 
 .seccion-oscura {
   background-color: #E5DBCF;
-  font-family: 'Monoton', cursive;
+  font-family: 'Alata', cursive;
   color: #74433C;
-  /*background-image: url(https://media.istockphoto.com/id/1428264803/es/vector/fondo-blanco-dorado-abstracto-textura-geom%C3%A9trica.jpg?s=612x612&w=0&k=20&c=pQS-xYwDYMBr_I-LRPiKUvQHdgfJPInus8Bw8O7eNxY=);
-  */
-  /*
-  color: #691E06;
-  background-color: #F7C59F;
-*/
 }
 
 .seccion-clara {
@@ -186,6 +197,22 @@ h1 {
   background-color: #3F220F;
   font-family: 'Monoton', cursive;
 }
+.tren{
+  width: 40% ;
+  height: 40%;
+}
+.casa{
+  width: 30% ;
+  height: 40%;
+}
+.bedu{
+  width: 60% ;
+  height: 50%;
+}
+.microsoft{
+  width: 60% ;
+  height: 50%;
+}
 
 .badges-contenedor {
   font-size: 20px;
@@ -204,8 +231,13 @@ h1 {
 }
 
 .proyectos-recientes .seccion-titulo{
-  color: #615151;
-  font-family: 'Monoton', cursive;
+  color: #000000;
+  font-family: "Monoton";
+
+}
+.seccion-descripcion{
+  color: #3a2f2f;
+  font-family: "Anton";
 
 }
 .proyectos-recientes img {
@@ -270,6 +302,7 @@ h1 {
 /* Testimonios */
 
 .seccion-titulo{
+  color: #000;
   font-family: 'Monoton', cursive;
 }
 .testimonios {
@@ -290,18 +323,24 @@ h1 {
   justify-content: center;
 }
 .testimonio-imagen {
-  height: 20px;
+
   margin: 1px 1px 2px 1px;
 }
 .testimonio-texto {
   max-width: 70%;
   font-size: 15px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "alata";
+  background-color: #E5DBCF;
+}
+.testimonio-imagen {
+  max-width: 35%;
+  
 }
 
+
 .testimonio-info {
-  font-weight: bold;
+
   text-align: center;
 }
 
@@ -311,17 +350,20 @@ h1 {
 
 .testimonio-footer .cliente {
   font-size: 1.2rem;
+
 }
 
 .testimonio-info .cargo {
   font-size: 0.9rem;
   color: #656060;
+  font-family:"Alata";
 }
+
 
 /* Contacto */
 
 .contacto{
-  background-color: #3F220F;
+  background-color:  #3F220F;
 }
 .contacto .container {
   max-width: 1100px;
@@ -345,6 +387,7 @@ h1 {
 }
 
 .contacto .descripcion {
+  font-family: "Anton";
   color: #584e4e;
   font-size: 1.2rem;
 }
