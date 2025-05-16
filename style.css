@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 /* Barra de navegacion */
 
 .navbar {
@@ -34,6 +38,8 @@
 
 .hero-inferior{
   background-image: url(https://img.freepik.com/vector-premium/patron-transparente-vector-patrones-fisuras-lineas-geometricas-simetricas-repeticion-mosaicos-geometricos_113590-24.jpg);
+  width: 100%;
+  overflow-x: hidden;
 }
 
 
